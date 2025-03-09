@@ -35,7 +35,7 @@ We use the **Credit Card Fraud Detection Dataset**, which contains 284,807 anony
 - **Dataset Reordering**: Scaled values were reordered to maintain consistency in the dataset structure.
 
 ![Untitled](https://github.com/user-attachments/assets/279e503e-1c5c-4ced-9641-ee5cee368b4a)
-
+Figure 1 & 2: Class Distribution Before and After Preprocessing
 
 These preprocessing steps were essential to improve model performance and ensure accurate application of differential privacy mechanisms.
 

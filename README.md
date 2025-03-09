@@ -34,62 +34,10 @@ We use the **Credit Card Fraud Detection Dataset**, which contains 284,807 anony
 - **Feature Normalization**: Normalized numerical features such as Amount and Time using **RobustScaler**, which helps mitigate the impact of outliers.
 - **Dataset Reordering**: Scaled values were reordered to maintain consistency in the dataset structure.
 
+![Untitled](https://github.com/user-attachments/assets/279e503e-1c5c-4ced-9641-ee5cee368b4a)
+
+
 These preprocessing steps were essential to improve model performance and ensure accurate application of differential privacy mechanisms.
 
 ---
 
-## Individual Contributions
-
-- **Galib Abdun Noor**: Leading the implementation of Laplace and Gaussian noise mechanisms, handling dataset preprocessing, and analyzing the effects of privacy noise.
-- **Jayashree Janani Purushothaman**: Conducting data exploration and developing visualizations to assess privacy noise impact.
-- **Hunain Munir Surahio**: Researching differential privacy techniques and helping debug and optimize the noise mechanisms.
-- **Farhana Ahmed**: Conducting a literature review on privacy-preserving techniques and contributing to documentation and report writing.
-
----
-
-## Challenges Encountered
-
-- **Handling Missing Data**: Required imputation techniques to ensure the dataset remained complete after applying noise.
-- **Balancing Privacy and Utility**: Choosing the optimal privacy budget (ε, δ) was challenging, as too much noise degrades data utility.
-- **Computational Efficiency**: Large-scale data transformations required optimization techniques to improve runtime performance.
-- **Effect on Fraud Detection**: Differential privacy mechanisms sometimes altered the classification boundaries, requiring careful tuning.
-
----
-
-## Plan for Completion
-
-- **Finalizing Noise Parameters**: Experiment with different privacy budgets (ε, δ) and evaluate their impact on fraud detection accuracy.
-- **Model Training and Evaluation**: Apply privacy-preserving data to machine learning models and compare performance.
-- **Further Visualizations**: Develop scatter plots, box plots, and privacy-utility graphs to better understand privacy effects.
-- **Report Completion**: Draft and format the final report using the ACM LaTeX template.
-- **Presentation Preparation**: Develop slides for the group presentation, scheduled for March 26, 2025.
-
----
-
-## Timeline of Activities
-
-| Phase | Task Description | Timeline |
-|-------|-------------------|----------|
-| Phase 1 | Literature review on differential privacy & fraud detection | Jan 15 - Jan 25, 2025 |
-| Phase 2 | Data collection and preprocessing | Jan 26 - Feb 5, 2025 |
-| Phase 3 | Working on Laplace and Gaussian mechanisms | Feb 6 - Feb 18, 2025 |
-| Phase 4 | Analyzing the impact of noise and generating visualizations | Feb 19 - Feb 28, 2025 |
-| Phase 5 | Fine-tuning privacy parameters & evaluating model performance | Mar 1 - Mar 10, 2025 |
-| Phase 6 | Writing the final report & formatting in ACM LaTeX | Mar 11 - Mar 20, 2025 |
-| Phase 7 | Presentation preparation | Mar 21 - Mar 25, 2025 |
-| Final Phase | Group presentation | Mar 26, 2025 |
-
----
-
-## References
-
-1. C. Dwork and A. Roth, "The Algorithmic Foundations of Differential Privacy," *Foundations and Trends in Theoretical Computer Science*, vol. 9, no. 3–4, pp. 211–407, 2014.
-2. M. Abadi et al., "Deep Learning with Differential Privacy," in *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*, New York, NY, USA: ACM, 2016, pp. 308–318.
-3. Y.-A. Le Borgne et al., "Reproducible Machine Learning for Credit Card Fraud Detection – Practical Handbook," *International Journal of Data Science and Analytics*, vol. 5, no. 4, pp. 285–300, 2018.
-4. B. Lebichot et al., "Incremental Learning Strategies for Credit Card Fraud Detection," *IEEE Transactions on Neural Networks and Learning Systems*, vol. 29, no. 8, pp. 3784–3797, 2018.
-5. I. Mironov, "Rényi Differential Privacy," in *Proceedings of the 30th IEEE Computer Security Foundations Symposium*, 2017, pp. 263–275.
-6. F. McSherry and K. Talwar, "Mechanism Design via Differential Privacy," in *Proceedings of the 48th Annual IEEE Symposium on Foundations of Computer Science*, 2007, pp. 94–103.
-
----
-
-This `README.md` file can now be used to describe your **Differential Privacy in Data Analytics** project on GitHub. Just create the `README.md` file in your repository and paste this content into it. Let me know if you need any further modifications!
